@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2rem;
+}
+
+.badge {
+  position: relative;
+  height: 3rem;
+  padding: 0.9rem;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+/* || normal badge */
+
+.badge-text {
+  font-size: 1rem;
+}
+
+.badge-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  right: 10px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  color: white;
+  font-weight: bold;
+}
+
+/* || large badge */
+
+.badge-large-box {
+  width: 12.5rem;
+}
+
+.badge-large {
+  font-size: 1.5rem;
+  width: 25px;
+  height: 25px;
+}
+
+/* || badge with button */
+
+.badge-with-button {
+  width: 19.6rem;
+  height: 4.5rem;
+  padding: 0.2rem;
+}
+
+.badge-text-button {
+  display: inline-block;
+}
+
+.badge-btn-box {
+  display: inline-block;
+  position: relative;
+  width: 6rem;
+  height: 4rem;
+  padding: 0.8rem;
+}
+
+.badge-btn-style {
+  padding: 0.7rem;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  border-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.badge-number-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  background-color: hotpink;
+}
+
+/* || badge with button */
+
+.badge-number-right {
+  position: absolute;
+  right: 3px;
+  top: 0;
+}
+
+.badge-btn-color {
+  background-color: rgb(255, 247, 247);
+  color: black;
+  box-shadow: 1px 1px 3px #888888;
+  cursor: pointer;
+  width: 4rem;
+}
+
+.toggle-number {
+  visibility: hidden;
+}
+
+/* || badge with icon */
+
+.badge-icon-box {
+  padding-right: 0;
+  padding-bottom: 0;
+  width: 3.1rem;
+  height: auto;
+}
+
+.icon {
+  font-size: 1.3rem;
+}
