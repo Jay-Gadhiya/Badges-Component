@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  --primary-color : rgb(33, 146, 184);
 }
 
 body {
@@ -27,7 +28,7 @@ body {
   top: 0;
   right: 0;
   right: 10px;
-  background-color: blueviolet;
+  background-color: var(--primary-color);
   border-radius: 50%;
   width: 22px;
   height: 22px;
@@ -71,7 +72,7 @@ body {
 
 .badge-btn-style {
   padding: 0.7rem;
-  background-color: blueviolet;
+  background-color: var(--primary-color);
   color: white;
   font-weight: bold;
   border-radius: 6px;
